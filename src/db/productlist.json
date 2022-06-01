@@ -1,0 +1,381 @@
+{
+  "type": "success",
+  "message": "접속 성공",
+  "product-list": [
+    {
+      "itemkind": "OUTER",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJU001",
+          "title": "더슬림 린넨 점퍼[S,M,L 사이즈]",
+          "color": ["black", "pink", "yellow", "mustard"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer3.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OVE001",
+          "title": "더슬림 린넨 베스트[S,M,L 사이즈]",
+          "color": ["beige", "brown", "skyblue", "black"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer4.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OCO002",
+          "title": "더슬림 린넨 배기팬츠1[S,M,L 사이즈]",
+          "color": ["red", "skyblue", "green"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer5.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA002",
+          "title": "더슬림 린넨 배기팬츠2[S,M,L 사이즈]",
+          "color": ["beige", "deepblue", "ivory", "brown"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer6.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJU002",
+          "title": "더슬림 린넨 배기팬츠1[S,M,L 사이즈]",
+          "color": ["blue", "black", "brown", "beige"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer7.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OVE002",
+          "title": "더슬림 린넨 배기팬츠2[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer8.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OCO003",
+          "title": "트렌치코트 유니클로[S,M,L 사이즈]",
+          "color": ["red", "skyblue", "green"],
+          "price": "49,900",
+          "size": ["S", "M", "L"],
+          "thumb": "outer9.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OCO004",
+          "title": "리오 트렌치코트[S,M,L 사이즈]",
+          "color": ["red", "skyblue", "green"],
+          "price": "69,900",
+          "size": ["S", "M", "L"],
+          "thumb": "outer10.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OCO005",
+          "title": "이에스엔 에센셜 세미 오버 핏 코튼[S,M,L 사이즈]",
+          "color": ["red", "skyblue", "green"],
+          "price": "89,000",
+          "size": ["S", "M", "L"],
+          "thumb": "outer11.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OCO006",
+          "title": "캐시미어 블렌드 오버사이즈 싱글 코트[S,M,L 사이즈]",
+          "color": ["red", "skyblue", "green"],
+          "price": "79,900",
+          "size": ["S", "M", "L"],
+          "thumb": "outer12.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "TOP",
+      "itemlist": [
+        {
+          "id": "TSH001",
+          "title": "반팔 무지 티셔츠[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "29,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TSH002",
+          "title": "레이어드 크루 넥 반팔 티셔츠[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "13,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TSH003",
+          "title": "슈무 아치로고 반팔 티셔츠[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "19,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top3.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TSH004",
+          "title": "릴렉스 핏 크루 넥 반팔 티셔츠 [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "11,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top4.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TSH005",
+          "title": "그래픽 박시 티셔츠[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "24,500",
+          "size": ["S", "M", "L"],
+          "thumb": "top5.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TBL001",
+          "title": "달리 소매 퍼프 블라우스[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "21,800",
+          "size": ["S", "M", "L"],
+          "thumb": "top6.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TBL002",
+          "title": "포플러앤씨 렛치 배색 리본 블라우스 [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "39,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top7.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TBL003",
+          "title": "실크개더블라우스(긴팔) [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "29,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top8.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TBL004",
+          "title": "아리즈 새틴 블라우스[S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "39,900",
+          "size": ["S", "M", "L"],
+          "thumb": "top9.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TBL005",
+          "title": "러블무드 더블 카라 블라우스 [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "38,000",
+          "size": ["S", "M", "L"],
+          "thumb": "top10.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TMI001",
+          "title": "리본 핀턱 민소매 탑 [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "79,000",
+          "size": ["S", "M", "L"],
+          "thumb": "top11.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "TMI002",
+          "title": "스퀘어 니트 나시  [S,M,L 사이즈]",
+          "color": ["blue", "black", "green"],
+          "price": "39,000",
+          "size": ["S", "M", "L"],
+          "thumb": "top12.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "KNIT",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "BOTTOM",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "DRESS",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "ACCESS",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    },
+    {
+      "itemkind": "SHOESBAG",
+      "itemlist": [
+        {
+          "id": "OCO001",
+          "title": "더슬림 린넨 코트[S,M,L 사이즈]",
+          "color": ["blue", "black", "green", "ivory"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer1.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        },
+        {
+          "id": "OJA001",
+          "title": "더슬림 린넨 자켓[S,M,L 사이즈]",
+          "color": ["ivory", "naivy", "red", "mint"],
+          "price": "19,800",
+          "size": ["S", "M", "L"],
+          "thumb": "outer2.jpg",
+          "photo": ["url1", "url2"],
+          "itemaccount": "2022-05-24"
+        }
+      ]
+    }
+  ]
+}

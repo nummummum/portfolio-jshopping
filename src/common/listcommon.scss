@@ -1,0 +1,26 @@
+.itemlist {
+  height: auto;
+  background-color: #f2f2f2;
+
+  .itemlist_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.menu_title {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  li {
+    margin: 5px 10px;
+  }
+}
