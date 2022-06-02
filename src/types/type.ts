@@ -4,6 +4,8 @@ export interface ProductThumb {
   color: string[];
   title: string;
   price: string;
+  size: string[];
+  url: string;
 }
 export interface ProductDetail {
   id: string;

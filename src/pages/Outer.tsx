@@ -164,6 +164,8 @@ export default function Outer() {
               color={product.color}
               title={product.title}
               price={product.price}
+              size={product.size}
+              url="outer"
             />
           ))}
         </div>

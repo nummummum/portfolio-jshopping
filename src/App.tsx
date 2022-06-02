@@ -15,6 +15,7 @@ import Dress from './pages/Dress';
 import Access from './pages/Access';
 import ShoesBag from './pages/ShoesBag';
 import Header from './components/Header';
+import ProductDetail from './components/ProductDetail';
 function App() {
   return (
     <ErrorBoundary FallbackComponent={Error}>
@@ -24,18 +25,25 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/outer" element={<Outer />} />
           <Route path="/outer/:id" element={<Outer />} />
+          <Route path="/outer/productdetail" element={<ProductDetail />} />
           <Route path="/top" element={<Top />} />
           <Route path="/top/:id" element={<Top />} />
+          <Route path="/top/productdetail" element={<ProductDetail />} />
           <Route path="/knit" element={<Knit />} />
           <Route path="/knit/:id" element={<Knit />} />
+          <Route path="/knit/productdetail" element={<ProductDetail />} />
           <Route path="/bottom" element={<Bottom />} />
           <Route path="/bottom/:id" element={<Bottom />} />
+          <Route path="/bottom/productdetail" element={<ProductDetail />} />
           <Route path="/dress" element={<Dress />} />
           <Route path="/dress/:id" element={<Dress />} />
+          <Route path="/dress/productdetail" element={<ProductDetail />} />
           <Route path="/access" element={<Access />} />
           <Route path="/access/:id" element={<Access />} />
+          <Route path="/access/productdetail" element={<ProductDetail />} />
           <Route path="/shoesbag" element={<ShoesBag />} />
           <Route path="/shoesbag/:id" element={<ShoesBag />} />
+          <Route path="/shoesbag/productdetail" element={<ProductDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

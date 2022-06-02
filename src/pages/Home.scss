@@ -14,3 +14,15 @@
     }
   }
 }
+
+section {
+  &.itemlist {
+    background-color: #fff;
+    .menu_title {
+      color: #333;
+      margin: 50px 0;
+    }
+    .itemlist_wrap {
+    }
+  }
+}

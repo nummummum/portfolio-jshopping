@@ -138,7 +138,9 @@ export default function Top() {
               thumb={'top/' + product.thumb}
               color={product.color}
               title={product.title}
+              size={product.size}
               price={product.price}
+              url="top"
             />
           ))}
         </div>

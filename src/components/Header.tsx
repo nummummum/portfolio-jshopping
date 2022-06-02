@@ -89,47 +89,83 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <a href="/knit">
+              <Link to="/knit" state={{ kindnumber: 1 }} onClick={click}>
                 <h4>KNIT</h4>
-              </a>
-              <p>니트</p>
-              <p>가디건</p>
-              <p>베스트&숄</p>
+              </Link>
+              <Link to="/knit" state={{ kindnumber: 2 }} onClick={click}>
+                <p>니트</p>
+              </Link>
+              <Link to="/knit" state={{ kindnumber: 3 }} onClick={click}>
+                <p>가디건</p>
+              </Link>
+              <Link to="/knit" state={{ kindnumber: 4 }} onClick={click}>
+                <p>베스트&숄</p>
+              </Link>
             </li>
             <li>
-              <a href="/bottom">
+              <Link to="/bottom" state={{ kindnumber: 1 }} onClick={click}>
                 <h4>BOTTOM</h4>
-              </a>
-              <p>팬츠</p>
-              <p>스커트</p>
+              </Link>
+              <Link to="/bottom" state={{ kindnumber: 2 }} onClick={click}>
+                <p>팬츠</p>
+              </Link>
+              <Link to="/bottom" state={{ kindnumber: 3 }} onClick={click}>
+                <p>스커트</p>
+              </Link>
             </li>
             <li>
-              <a href="/dress">
+              <Link to="/dress" state={{ kindnumber: 1 }} onClick={click}>
                 <h4>DRESS</h4>
-              </a>
-              <p>원피스</p>
-              <p>투피스&점프슈트</p>
-              <p>점퍼</p>
-              <p>베스트</p>
+              </Link>
+              <Link to="/dress" state={{ kindnumber: 2 }} onClick={click}>
+                <p>원피스</p>
+              </Link>
+              <Link to="/dress" state={{ kindnumber: 3 }} onClick={click}>
+                <p>투피스&점프슈트</p>
+              </Link>
+              <Link to="/dress" state={{ kindnumber: 4 }} onClick={click}>
+                <p>점퍼</p>
+              </Link>
+              <Link to="/dress" state={{ kindnumber: 5 }} onClick={click}>
+                <p>베스트</p>
+              </Link>
             </li>
             <li>
-              <a href="/access">
+              <Link to="/access" state={{ kindnumber: 1 }} onClick={click}>
                 <h4>ACC</h4>
-              </a>
-              <p>스카프&머플러</p>
-              <p>파자마&라운지웨어</p>
-              <p>주얼리&시계</p>
-              <p>선글라스</p>
+              </Link>
+              <Link to="/access" state={{ kindnumber: 2 }} onClick={click}>
+                <p>스카프&머플러</p>
+              </Link>
+              <Link to="/access" state={{ kindnumber: 3 }} onClick={click}>
+                <p>파자마&라운지웨어</p>
+              </Link>
+              <Link to="/access" state={{ kindnumber: 4 }} onClick={click}>
+                <p>주얼리&시계</p>
+              </Link>
+              <Link to="/access" state={{ kindnumber: 5 }} onClick={click}>
+                <p>선글라스</p>
+              </Link>
             </li>
             <li>
-              <a href="/shoesbag">
+              <Link to="/shoesbag" state={{ kindnumber: 1 }} onClick={click}>
                 <h4>SHOES&BAG</h4>
-              </a>
-              <p>플랫</p>
-              <p>로퍼&선로퍼</p>
-              <p>힐&부츠</p>
-              <p>가방</p>
-              <p>파우치</p>
+              </Link>
+              <Link to="/shoesbag" state={{ kindnumber: 2 }} onClick={click}>
+                <p>플랫</p>
+              </Link>
+              <Link to="/shoesbag" state={{ kindnumber: 3 }} onClick={click}>
+                <p>로퍼&선로퍼</p>
+              </Link>
+              <Link to="/shoesbag" state={{ kindnumber: 4 }} onClick={click}>
+                <p>힐&부츠</p>
+              </Link>
+              <Link to="/shoesbag" state={{ kindnumber: 5 }} onClick={click}>
+                <p>가방</p>
+              </Link>
+              <Link to="/shoesbag" state={{ kindnumber: 6 }} onClick={click}>
+                <p>파우치</p>
+              </Link>
             </li>
           </ul>
         </div>
