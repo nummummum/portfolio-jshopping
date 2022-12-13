@@ -49,9 +49,18 @@ header {
     }
   }
   .title {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: -0.5px;
+    a {
+      color: #333;
+      transition: all 0.4s ease;
+      &:hover {
+        transition: all 0.4s ease;
+        letter-spacing: 2px;
+        transform: scale(1.1);
+      }
+    }
   }
   .shop_menu {
     font-family: "Noto Sans KR", sans-serif;
@@ -95,13 +104,13 @@ section {
     visibility: hidden;
     &.clicked {
       transition: height 0.2s;
-      height: 400px;
+      height: 450px;
       visibility: visible;
     }
     ul {
       display: flex;
       flex-wrap: wrap;
-      margin: 5px;
+      margin: 5px 5px 5px 25px;
       li {
         width: 130px;
         margin: 10px 10px;
@@ -114,8 +123,23 @@ section {
         p {
           cursor: pointer;
           padding-left: 5px;
-          margin: 10px 0;
+          margin: 16px 0;
           font-size: 15px;
+          &::after {
+            display: block;
+            position: relative;
+            content: "";
+            width: 0;
+            bottom: -6px;
+            border-bottom: 1px solid #293132;
+            color: black;
+            transition: all 0.25s ease;
+          }
+          &:hover {
+            &::after {
+              width: 100%;
+            }
+          }
         }
       }
     }
