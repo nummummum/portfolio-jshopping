@@ -1,6 +1,9 @@
 .product_menu {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 17px;
   font-weight: 400;
   margin: 10px;
   width: 300px;
@@ -13,9 +16,8 @@
   }
   .product_title {
     margin: 5px 0;
-    padding: 0 10px;
   }
   .product_price {
-    padding: 8px 10px;
+    padding: 5px 0;
   }
 }

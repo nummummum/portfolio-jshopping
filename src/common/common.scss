@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: "Nanum Pen Script", cursive;
   font-size: 23px;
 }
 a {
@@ -8,7 +8,6 @@ a {
 }
 .color_wrap {
   display: flex;
-  margin-left: 9px;
   .color {
     display: block;
     width: 10px;
@@ -70,6 +69,7 @@ a {
     }
   }
 }
+
 .btn {
   cursor: pointer;
   display: flex;

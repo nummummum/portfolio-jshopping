@@ -1,16 +1,16 @@
-import ProductBottom from '../components/ProductBottom';
-import ProductMenu from '../components/ProductMenu';
-import ProductTopBar from '../components/ProductTopBar';
-import loadList from '../function/loadList';
-import '../common/listcommon.scss';
-import { useEffect, useRef, useState } from 'react';
-import filterList from '../function/filterList';
-import { FilterProduct, ProductDetail } from '../types/type';
-import { useLocation, useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import ProductBottom from "../components/ProductBottom";
+import ProductMenu from "../components/ProductMenu";
+import ProductTopBar from "../components/ProductTopBar";
+import loadList from "../function/loadList";
+import "../common/listcommon.scss";
+import { useEffect, useRef, useState } from "react";
+import filterList from "../function/filterList";
+import { FilterProduct, ProductDetail } from "../types/type";
+import { useLocation, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-let productArr: FilterProduct = loadList('KNIT');
-let filterArr: FilterProduct = filterList(productArr, '');
+let productArr: FilterProduct = loadList("KNIT");
+let filterArr: FilterProduct = filterList(productArr, "");
 
 export default function Knit() {
   const location = useLocation();
@@ -30,43 +30,43 @@ export default function Knit() {
   useEffect(() => {
     switch (kindNumber) {
       case 1: {
-        filterArr = filterList(productArr, '');
-        btn1.current.className = 'btn reverse';
-        btn2.current.className = 'btn';
-        btn3.current.className = 'btn';
-        btn4.current.className = 'btn';
+        filterArr = filterList(productArr, "");
+        btn1.current.className = "btn reverse";
+        btn2.current.className = "btn";
+        btn3.current.className = "btn";
+        btn4.current.className = "btn";
         // console.log(filterArr);
         break;
       }
       case 2: {
-        filterArr = filterList(productArr, 'TSH');
-        btn2.current.className = 'btn reverse';
-        btn1.current.className = 'btn';
-        btn3.current.className = 'btn';
-        btn4.current.className = 'btn';
+        filterArr = filterList(productArr, "KNI");
+        btn2.current.className = "btn reverse";
+        btn1.current.className = "btn";
+        btn3.current.className = "btn";
+        btn4.current.className = "btn";
         // console.log(filterArr);
         break;
       }
       case 3: {
-        filterArr = filterList(productArr, 'TBL');
-        btn3.current.className = 'btn reverse';
-        btn1.current.className = 'btn';
-        btn2.current.className = 'btn';
-        btn4.current.className = 'btn';
+        filterArr = filterList(productArr, "KGA");
+        btn3.current.className = "btn reverse";
+        btn1.current.className = "btn";
+        btn2.current.className = "btn";
+        btn4.current.className = "btn";
         // console.log(filterArr);
         break;
       }
       case 4: {
-        filterArr = filterList(productArr, 'TMI');
-        btn4.current.className = 'btn reverse';
-        btn1.current.className = 'btn';
-        btn2.current.className = 'btn';
-        btn3.current.className = 'btn';
+        filterArr = filterList(productArr, "TMI");
+        btn4.current.className = "btn reverse";
+        btn1.current.className = "btn";
+        btn2.current.className = "btn";
+        btn3.current.className = "btn";
         // console.log(filterArr);
         break;
       }
       default:
-        filterArr = filterList(productArr, '');
+        filterArr = filterList(productArr, "");
         // console.log(filterArr);
         break;
     }
@@ -86,7 +86,7 @@ export default function Knit() {
         <h4 className="menu_title">니트</h4>
         <ul className="btn_wrap">
           <li
-            onClick={e => {
+            onClick={(e) => {
               click(1);
             }}
           >
@@ -97,7 +97,7 @@ export default function Knit() {
             </Link>
           </li>
           <li
-            onClick={e => {
+            onClick={(e) => {
               click(2);
             }}
           >
@@ -108,7 +108,7 @@ export default function Knit() {
             </Link>
           </li>
           <li
-            onClick={e => {
+            onClick={(e) => {
               click(3);
             }}
           >
@@ -119,7 +119,7 @@ export default function Knit() {
             </Link>
           </li>
           <li
-            onClick={e => {
+            onClick={(e) => {
               click(4);
             }}
           >
@@ -135,7 +135,7 @@ export default function Knit() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'knit/' + product.thumb}
+              thumb={"knit/" + product.thumb}
               color={product.color}
               title={product.title}
               size={product.size}

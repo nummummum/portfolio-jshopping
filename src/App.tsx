@@ -16,6 +16,9 @@ import Access from './pages/Access';
 import ShoesBag from './pages/ShoesBag';
 import Header from './components/Header';
 import ProductDetail from './components/ProductDetail';
+import DescReact from './pages/DescReact';
+import DescHome from './pages/DescHome';
+import DescTS from './pages/DescTS';
 function App() {
   return (
     <ErrorBoundary FallbackComponent={Error}>
@@ -44,6 +47,9 @@ function App() {
           <Route path="/shoesbag" element={<ShoesBag />} />
           <Route path="/shoesbag/:id" element={<ShoesBag />} />
           <Route path="/shoesbag/productdetail" element={<ProductDetail />} />
+          <Route path="descreact" element={<DescReact />} />
+          <Route path="deschome" element={<DescHome />} />
+          <Route path="descts" element={<DescTS />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

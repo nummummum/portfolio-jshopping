@@ -1,23 +1,24 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper'; // 추가
-import Header from '../components/Header';
-import './Home.scss';
-import '../common/listcommon.scss';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { FilterProduct } from '../types/type';
-import loadList from '../function/loadList';
-import ProductMenu from '../components/ProductMenu';
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper"; // 추가
+import Header from "../components/Header";
+import "./Home.scss";
+import "../common/listcommon.scss";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { FilterProduct } from "../types/type";
+import loadList from "../function/loadList";
+import ProductMenu from "../components/ProductMenu";
+import { Link } from "react-router-dom";
 SwiperCore.use([Navigation, Pagination, Autoplay]); // 추가
 
-let productOuterArr: FilterProduct = loadList('OUTER');
-let productTopArr: FilterProduct = loadList('TOP');
-let productKnitArr: FilterProduct = loadList('KNIT');
-let productBottomArr: FilterProduct = loadList('BOTTOM');
-let productDressArr: FilterProduct = loadList('DRESS');
-let productAccessArr: FilterProduct = loadList('ACCESS');
-let productShoesbagArr: FilterProduct = loadList('SHOESBAG');
+let productOuterArr: FilterProduct = loadList("OUTER");
+let productTopArr: FilterProduct = loadList("TOP");
+let productKnitArr: FilterProduct = loadList("KNIT");
+let productBottomArr: FilterProduct = loadList("BOTTOM");
+let productDressArr: FilterProduct = loadList("DRESS");
+let productAccessArr: FilterProduct = loadList("ACCESS");
+let productShoesbagArr: FilterProduct = loadList("SHOESBAG");
 export default function Home() {
   return (
     <>
@@ -26,25 +27,42 @@ export default function Home() {
           className="swiper"
           spaceBetween={0}
           slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 2000 }}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          pagination={{
+            el: ".swiper-pagination",
+            type: "progressbar",
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+            // false : 스와이프 후 자동재생
+          }}
           scrollbar={{ draggable: true }}
           loop={true}
           // onSlideChange={() => console.log('change')}
         >
           <SwiperSlide className="swiper-slide">
-            <img src="/images/banner_top_img1.jpeg" alt="" />
+            <Link to="/descreact">
+              <img src="/images/banner_top_img1.jpg" alt="" />
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/images/banner_top_img2.png" alt="" />
+            <Link to="/deschome">
+              <img src="/images/banner_top_img2.jpg" alt="" />
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/images/banner_top_img3.png" alt="" />
+            <Link to="/descts">
+              <img src="/images/banner_top_img3.jpg" alt="" />
+            </Link>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <img src="/images/banner_top_img4.jpg" alt="" />
-          </SwiperSlide>
+          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-pagination"></div>
         </Swiper>
       </section>
       <section className="itemlist">
@@ -54,7 +72,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'outer/' + product.thumb}
+              thumb={"outer/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -69,7 +87,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'top/' + product.thumb}
+              thumb={"top/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -84,7 +102,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'knit/' + product.thumb}
+              thumb={"knit/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -99,7 +117,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'bottom/' + product.thumb}
+              thumb={"bottom/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -114,7 +132,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'dress/' + product.thumb}
+              thumb={"dress/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -129,7 +147,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'access/' + product.thumb}
+              thumb={"access/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}
@@ -144,7 +162,7 @@ export default function Home() {
             <ProductMenu
               key={index}
               id={product.id}
-              thumb={'shoesbag/' + product.thumb}
+              thumb={"shoesbag/" + product.thumb}
               color={product.color}
               title={product.title}
               price={product.price}

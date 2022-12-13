@@ -1,16 +1,31 @@
 .home_main {
   height: 500px;
   background-color: antiquewhite;
+  position: relative;
   .swiper {
     height: 500px;
     width: 100%;
     img {
       width: 100%;
       height: 500px;
+      object-fit: cover;
     }
     .swiper-wrapper {
     }
-    .swiper-slide {
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #000;
+    }
+    .swiper-pagination {
+      position: absolute;
+      top: 95%;
+      right: 0;
+      left: 0;
+      width: 20%;
+      height: 3px;
+      margin: 0 auto;
+      background: #b2b2b2;
+      --swiper-theme-color: #fff;
     }
   }
 }
